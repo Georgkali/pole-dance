@@ -1,0 +1,52 @@
+body {
+    background-image: url('shutterstock_1037424730.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+ a {
+     text-decoration: none;
+     color: white;
+ }
+a:hover {
+    color: yellow;
+}
+.navigation {
+    font-family: 'Monoton', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: fixed;
+    width: 100%;
+    
+    margin: 0;
+    font-weight: 100px;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation li {
+    font-size: 40px;
+    display: inline-block;
+    
+}
+
+.info {
+    font-family: 'Fugaz One';
+    letter-spacing: 0.07em;
+    padding: 10px;
+    margin-top: 200px;
+    width: 75%;
+    color: papayawhip;
+    font-style: italic;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    }
